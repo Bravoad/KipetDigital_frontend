@@ -1,0 +1,30 @@
+.page-title {
+  padding: 72px 0 48px;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(88, 240, 200, 0.16), transparent 28%),
+    radial-gradient(circle at 85% 10%, rgba(116, 167, 255, 0.16), transparent 24%);
+}
+
+.page-title__eyebrow {
+  color: var(--color-accent);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 12px;
+}
+
+.page-title h1 {
+  max-width: 840px;
+  margin: 12px 0 0;
+  font-size: clamp(40px, 8vw, 72px);
+  line-height: 0.95;
+  letter-spacing: -0.06em;
+}
+
+.page-title p {
+  max-width: 740px;
+  margin: 20px 0 0;
+  color: var(--color-muted);
+  font-size: 20px;
+  line-height: 1.7;
+}

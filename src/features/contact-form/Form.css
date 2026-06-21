@@ -1,0 +1,24 @@
+.data-form {
+  display: grid;
+  gap: 18px;
+}
+
+.data-form__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.data-form__success {
+  padding: 16px 18px;
+  border: 1px solid rgba(88, 240, 200, 0.28);
+  border-radius: 18px;
+  color: #c8fff0;
+  background: rgba(88, 240, 200, 0.1);
+}
+
+@media (max-width: 720px) {
+  .data-form__grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,29 @@
+.not-found-page {
+  display: grid;
+  min-height: 60vh;
+  place-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.not-found-page span {
+  color: var(--color-accent);
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.not-found-page h1 {
+  margin: 12px 0;
+  font-size: clamp(42px, 7vw, 72px);
+  letter-spacing: -0.06em;
+}
+
+.not-found-page p {
+  max-width: 520px;
+  margin: 0 0 28px;
+  color: var(--color-muted);
+}
+
+.not-found-page a {
+  text-decoration: none;
+}

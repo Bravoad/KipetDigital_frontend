@@ -1,0 +1,22 @@
+.home-page__more {
+  margin-top: 28px;
+}
+
+.home-page__more a {
+  text-decoration: none;
+}
+
+.home-page__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.home-page__tags span {
+  padding: 12px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  color: #e9f8ff;
+  background: rgba(255, 255, 255, 0.06);
+  font-weight: 800;
+}

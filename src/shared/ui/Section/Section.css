@@ -1,0 +1,25 @@
+.section {
+  padding: 72px 0;
+}
+
+.section--compact {
+  padding: 40px 0;
+}
+
+.section__header {
+  max-width: 780px;
+  margin-bottom: 32px;
+}
+
+.section__header h2 {
+  margin: 0 0 12px;
+  font-size: clamp(28px, 5vw, 44px);
+  letter-spacing: -0.04em;
+}
+
+.section__header p {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 18px;
+  line-height: 1.7;
+}
